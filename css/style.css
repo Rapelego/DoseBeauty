@@ -1,0 +1,14 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom pink hover effect */
+.btn-pink {
+    background-color: #ec4899;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-pink:hover {
+    background-color: #db2777;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | L DOSE BEAUTY</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- External CSS (FOR FUTURE USE) -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-pink-50">
+
+    <!-- NAVBAR -->
+    <nav class="flex justify-between items-center p-5 bg-white shadow-md">
+        <a href="index.html">
+            <img src="images/logo.png" class="h-10">
+        </a>
+
+        <ul class="flex gap-6 text-gray-700 font-medium">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+        </ul>
+    </nav>
+
+    <!-- PRODUCT SECTION -->
+    <section class="p-10 grid md:grid-cols-2 gap-10 items-center">
+
+        <!-- IMAGE -->
+        <div>
+            <img src="https://via.placeholder.com/500" class="rounded-2xl shadow-lg">
+        </div>
+
+        <!-- DETAILS -->
+        <div>
+            <h2 class="text-3xl font-bold text-pink-600 mb-4">
+                Lace Pink Set
+            </h2>
+
+            <p class="text-gray-600 mb-4">
+                Elegant and comfortable lingerie set designed to make you feel confident and beautiful.
+            </p>
+
+            <p class="text-2xl font-bold text-pink-500 mb-6">
+                R299
+            </p>
+
+            <!-- SIZE -->
+            <div class="mb-6">
+                <label class="block mb-2 font-medium">Select Size:</label>
+                <select class="border p-2 rounded-lg w-40">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+            </div>
+
+            <!-- WHATSAPP BUTTON -->
+            <a 
+                href="https://wa.me/27765840395?text=Hi%20L%20DOSE%20BEAUTY,%20I%20want%20to%20order%20the%20Lace%20Pink%20Set%20(Size:%20Small)"
+                class="bg-green-500 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600"
+                target="_blank"
+            >
+                Order on WhatsApp
+            </a>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
